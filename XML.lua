@@ -11,7 +11,6 @@ local function parseXmlTags(input)
 			tag = tag,
 			content = content
 		})
-		print(tags)
 	end
 
 	if #tags > 0 then
